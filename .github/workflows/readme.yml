@@ -29,4 +29,4 @@ jobs:
         with:
           author_name: QuentG
           author_email: quentin.gans@outlook.fr
-          message: 'Today's README updated by QuentG Bot'
+          message: 'Today\'s README updated by QuentG Bot'
