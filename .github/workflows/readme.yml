@@ -25,9 +25,8 @@ jobs:
         run: node main.js
 
       - name: Commit changes to github
-        uses: EndBug/add-and-commit@v9.1.4
+        uses: EndBug/add-and-commit@v9
         with:
-          add: 'README.md'
           author_name: QuentG
           author_email: quentin.gans@outlook.fr
           message: 'Today's README updated by QuentG Bot'
