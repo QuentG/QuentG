@@ -1,0 +1,9 @@
+{
+  "name": "readme.md",
+  "version": "1.0.0",
+  "description": "My github Readme !",
+  "main": "main.js",
+  "repository": "git@github.com:QuentG/QuentG.git",
+  "author": "Quentin Gans <quentin.gans@outlook.fr>",
+  "license": "MIT"
+}

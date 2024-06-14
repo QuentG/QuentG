@@ -1,4 +1,4 @@
-## Hi there 👋
+module.exports = `## Hi there 👋
 
 ### 🙋‍♂️ About me : 
 <small><i>in 4 points...</i></small>
@@ -15,23 +15,7 @@
 
 ### 🛠️ My stack : 
 
-```json
-{
-  "frontend": {
-    "js": ["React", "Next.js"],
-    "css": ["Tailwind", "Shadcn/ui"]
-  },
-  "backend": {
-    "php": ["Symfony"],
-    "js": ["Nest.js"]
-  },
-  "mobile": ["React Native"],
-  "database": ["MySQL", "PostgreSQL", "MongoDB"],
-  "devOps": ["Docker", "Vercel", "Nginx"],
-  "tools": ["Git", "Notion", "Jira", "Confluence"],
-  "misc": ["TypeScript", "Firebase", "GraphQL", "REST API"]
-}
-```
+<@stack>
 
 ### 📫 How to reach me :
 
@@ -46,4 +30,5 @@ Visitors count : <br />
 
 <img src="https://profile-counter.glitch.me/QuentG/count.svg" alt="Visitors count" />
 
-The Readme was updated at 15/06/2024 by <bold>QuentBot 🤖</bold>
+The Readme was updated at <@updated_at> by <bold><@updated_by></bold>
+`;

@@ -1,0 +1,33 @@
+name: Update README.md file 
+
+on:
+  push:
+    workflow_dispatch:
+      schedule:
+        # Tous les jours à 9h du matin (UTC)
+        - cron: '00 9 * * *'
+
+strategy:
+  matrix:
+    node-version: [20.x]
+
+jobs:
+  update-readme-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Update README.md file
+        run: node main.js
+
+      - name: Commit changes to github
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          add: 'README.md'
+          author_name: QuentG
+          author_email: quentin.gans@outlook.fr
+          message: 'Today's README updated by QuentG Bot'
