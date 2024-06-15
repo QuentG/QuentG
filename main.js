@@ -21,6 +21,7 @@ const generateFreshReadme = () => {
             continue;
         }
 
+
         newReadme = newReadme.replace(identifier, content);
     }
 
@@ -61,7 +62,13 @@ const getMyStack = () => {
 }
 
 const getFormattedDate = () => {
-    return new Date().toLocaleDateString();
+    const date = new Date();
+
+    const year = date.getFullYear();
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = (date.getDate() + 1).toString().padStart(2, '0');
+
+    return `${day}/${month}/${year}`;
 }
 
 const main = async () => {
