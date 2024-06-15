@@ -5,7 +5,7 @@ on:
     workflow_dispatch:
       schedule:
         # Tous les jours à 9h du matin (UTC)
-        - cron: '00 20 * * *'
+        - cron: '00 9 * * *'
 
 jobs:
   update-readme-file:
