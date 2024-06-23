@@ -1,11 +1,9 @@
 name: Update README.md file 
 
 on:
-  push:
-    workflow_dispatch:
-      schedule:
-        # Tous les jours à 9h du matin (UTC)
-        - cron: '00 9 * * *'
+  schedule:
+  # Tous les jours à 9h du matin (UTC)
+  - cron: '00 9 * * *'
 
 jobs:
   update-readme-file:
