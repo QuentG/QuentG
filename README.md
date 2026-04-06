@@ -46,4 +46,4 @@ Visitors count : <br />
 
 <img src="https://profile-counter.glitch.me/QuentG/count.svg" alt="Visitors count" />
 
-The Readme was updated at 05/04/2026 by <bold>QuentBot 🤖</bold>
+The Readme was updated at 06/04/2026 by <bold>QuentBot 🤖</bold>
