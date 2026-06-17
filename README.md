@@ -10,7 +10,6 @@
 
 ### My latest projects :
 
-* [🏍️ PronoGP](https://www.prono-gp.com)
 * [🚀 My personal website](https://quentingans.fr)
 * ... 
 
@@ -47,4 +46,4 @@ Visitors count : <br />
 
 <img src="https://profile-counter.glitch.me/QuentG/count.svg" alt="Visitors count" />
 
-The Readme was updated at 16/06/2026 by <bold>QuentBot 🤖</bold>
+The Readme was updated at 17/06/2026 by <bold>QuentBot 🤖</bold>
