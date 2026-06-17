@@ -10,6 +10,7 @@ module.exports = `## Hi there 👋
 
 ### My latest projects :
 
+* [🏍️ PronoGP - MotoGP predictions app with friends · Free](https://www.prono-gp.com)
 * [🚀 My personal website](https://quentingans.fr)
 * ... 
 
