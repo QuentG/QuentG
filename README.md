@@ -10,6 +10,7 @@
 
 ### My latest projects :
 
+* [🏍️ PronoGP](https://www.prono-gp.com)
 * [🚀 My personal website](https://quentingans.fr)
 * ... 
 
